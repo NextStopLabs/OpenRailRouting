@@ -18,6 +18,19 @@ License: [Apache 2.0](https://github.com/graphhopper/graphhopper/LICENSE.txt)
 
 See [graphhopper/NOTICE.md](graphhopper/NOTICE.md) for third-party dependencies shipped with GraphHopper.
 
+## GraphHopper Maps
+
+[src/main/rsources/de/geofabrik/openrailrouting/maps/](src/main/rsources/de/geofabrik/openrailrouting/maps/) contains
+a built version of the GraphHopper web frontend.
+
+The source code can be found at https://github.com/geofabrik/openrailrouting-maps
+
+© 2020–2026 GraphHopper GmbH and contributors
+
+License: [Apache 2.0](https://github.com/graphhopper/graphhopper/LICENSE.txt)
+
+See [graphhopper/NOTICE.md](graphhopper/NOTICE.md) for third-party dependencies shipped with GraphHopper.
+
 
 ## GraphHopper-Web
 

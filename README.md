@@ -35,8 +35,8 @@ This project includes a web frontend which is a fork of the original GraphHopper
 
 ## Building
 
-This project uses Maven (for the Java code) and NodeJS for the web frontend for building.
-`npm` has to be installed.
+This project uses Maven for building.
+You don't have to install NodeJS because this repository already contains a pre-built version of the web frontend.
 
 ```sh
 git submodule init

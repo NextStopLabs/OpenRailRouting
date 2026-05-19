@@ -1,3 +1,8 @@
+### 1.2 [not released]
+
+* Replace old web frontend by a new one which is a fork of the current GraphHopper web frontend.
+  Replace the source code of the frontend by pre-built JavaScript assets in order to avoid the JavaScript dependency hell.
+
 ### 1.1 [6 Feb 2026]
 
 This is a maintenance release with a couple of bugfixes, increased test coverage and a new GraphHopper version.

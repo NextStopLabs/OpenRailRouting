@@ -1,25 +1,10 @@
 # GraphHopper Routing Web Interface Customized for OpenRailRouting
 
-This repository contains the GraphHopper routing web interface customized for OpenRailRouting.
+This directory contains the GraphHopper routing web interface customized for OpenRailRouting.
 
 Code was copied from GraphHopper and is licensed under Apache License version 2.
 
-## Building
-
-### Building on your local machine
-
-```sh
-npm install
-npm run bundle
-```
-
-### Building in a Docker container with bind mount
-
-```sh
-build-tools/build_docker.sh
-build-tools/run_build.sh
-```
-
-This will create a Docker container mounting this directory. It runs NodeJS.
-After installing the dependencies, you will get a interactive Bash shell.
-Type `npm run bundle` (or any other command of your choice) and `exit` afterwards.
+In order to avoid the JavaScript dependency hell and to be able to build OpenRailRouting with a pinned
+version of the frontend at any time in future without relying, this directory includes the
+bundled JavaScript assets, not the source code. The source code resides in a
+[separated repository on GitHub](https://github.com/geofabrik/openrailrouting-maps).
