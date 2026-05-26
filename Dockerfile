@@ -3,14 +3,14 @@ FROM maven:3.9-eclipse-temurin-17 AS builder
 
 WORKDIR /app
 
-# Install git (needed for submodules)
+# Install git (needed for cloning submodule)
 RUN apt-get update && apt-get install -y git
 
 # Copy repo
 COPY . .
 
-# Init submodules + build
-RUN git submodule update --init --recursive \
+# Clone submodule + build
+RUN git clone https://github.com/geofabrik/railway-routing-api.git doc/api \
     && mvn -q clean package -DskipTests
 
 # -------- RUNTIME STAGE --------
